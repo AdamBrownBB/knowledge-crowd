@@ -2,9 +2,9 @@
 
 const extFunc = require('./extFile.js')
 
-module.exports.hello = async event => {
-  const externalRes = extFunc()
-  console.log(externalRes)
+module.exports.main = async event => {
+  // const externalRes = extFunc()
+  console.log(event)
   return {
     statusCode: 200,
     body: JSON.stringify(

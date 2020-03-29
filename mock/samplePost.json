@@ -1,0 +1,78 @@
+{
+    "body": "{\n    \"campaignId\": \"102\",\n    \"vote\": 7\n}",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.17.1",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Postman-Token": "7f7eb005-0359-4d80-8ee8-7190a3c6a8d8",
+        "Host": "localhost:3000",
+        "Accept-Encoding": "gzip, deflate",
+        "Content-Length": "42",
+        "Connection": "keep-alive"
+    },
+    "httpMethod": "POST",
+    "multiValueHeaders": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "User-Agent": [
+            "PostmanRuntime/7.17.1"
+        ],
+        "Accept": [
+            "*/*"
+        ],
+        "Cache-Control": [
+            "no-cache"
+        ],
+        "Postman-Token": [
+            "7f7eb005-0359-4d80-8ee8-7190a3c6a8d8"
+        ],
+        "Host": [
+            "localhost:3000"
+        ],
+        "Accept-Encoding": [
+            "gzip, deflate"
+        ],
+        "Content-Length": [
+            "42"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "multiValueQueryStringParameters": null,
+    "path": "/vote",
+    "pathParameters": null,
+    "queryStringParameters": null,
+    "requestContext": {
+        "accountId": "offlineContext_accountId",
+        "apiId": "offlineContext_apiId",
+        "authorizer": {
+            "principalId": "offlineContext_authorizer_principalId"
+        },
+        "httpMethod": "POST",
+        "identity": {
+            "accountId": "offlineContext_accountId",
+            "apiKey": "offlineContext_apiKey",
+            "caller": "offlineContext_caller",
+            "cognitoAuthenticationProvider": "offlineContext_cognitoAuthenticationProvider",
+            "cognitoAuthenticationType": "offlineContext_cognitoAuthenticationType",
+            "cognitoIdentityId": "offlineContext_cognitoIdentityId",
+            "cognitoIdentityPoolId": "offlineContext_cognitoIdentityPoolId",
+            "sourceIp": "127.0.0.1",
+            "user": "offlineContext_user",
+            "userAgent": "PostmanRuntime/7.17.1",
+            "userArn": "offlineContext_userArn"
+        },
+        "protocol": "HTTP/1.1",
+        "requestId": "offlineContext_requestId_ck8dh1rf30007bjnw5aqq8v7g",
+        "requestTimeEpoch": 1585512236554,
+        "resourceId": "offlineContext_resourceId",
+        "resourcePath": "/vote",
+        "stage": "dev"
+    },
+    "resource": "/vote",
+    "stageVariables": null,
+    "isOffline": true
+}

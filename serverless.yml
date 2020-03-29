@@ -22,7 +22,7 @@ package:
 
 plugins:
   # - serverless-bundle # Package our functions with Webpack
-  - serverless-offline
+  - serverless-offline 
   - serverless-dotenv-plugin # Load .env as environment variables
 
 
@@ -77,7 +77,12 @@ functions:
           path: test
           method: get
 
-
+  createVote:
+    handler: index.createVote
+    events:
+      - http:
+          path: vote
+          method: post
 
 #    Define function environment variables here
 #    environment:
